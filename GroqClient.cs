@@ -9,7 +9,7 @@ namespace AIHider
     public static class GroqClient
     {
         // ⚠️ Paste your Groq key here
-        private const string ApiKey = "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";
+        private const string ApiKey = "";
 
         private const string Model = "openai/gpt-oss-120b";
         private const string Endpoint = "https://api.groq.com/openai/v1/chat/completions";
