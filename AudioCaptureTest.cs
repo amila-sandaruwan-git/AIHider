@@ -12,7 +12,7 @@ namespace AIHider
     public static class AudioCaptureTest
     {
         // ⚠️ Your Groq key
-        private const string GroqApiKey = "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";
+        private const string GroqApiKey = "";
         private const string WhisperModel = "whisper-large-v3-turbo";
 
         // ---- Timing / thresholds (Fix 4 + Fix 5) ----
