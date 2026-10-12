@@ -11,7 +11,7 @@ namespace AIHider
     public static class GeminiClient
     {
         // ⚠️ Paste your Gemini API key here
-        private const string ApiKey = "AQ.Ab8RN6IYbPDCOWXdzjIPekSR3TiVyCsuEVoSA2JpWsOPt2_59g";
+        private const string ApiKey = "";
 
         private const string Model = "gemini-3.8-flash";
 
