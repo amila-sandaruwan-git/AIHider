@@ -339,6 +339,18 @@ namespace AIHider
             AudioCaptureTest.OnTranscriptReceived += OnTranscriptReceived;
         }
 
+        // ⭐ Hide this window from screen capture (Zoom, Meet, Teams, etc.)
+        protected override void OnHandleCreated(EventArgs e)
+        {
+            base.OnHandleCreated(e);
+
+            try
+            {
+                SetWindowDisplayAffinity(this.Handle, WDA_EXCLUDEFROMCAPTURE);
+            }
+            catch { }
+        }
+
         // ⭐ Force the standard arrow cursor over the whole form + resize edges
         protected override void WndProc(ref Message m)
         {
